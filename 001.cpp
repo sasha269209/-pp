@@ -1,3 +1,6 @@
+//file 001.cpp
+//lessons 01 {@pathtocpp cpp}
+
 #include <iostream>
 
 int main()
