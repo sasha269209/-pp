@@ -10,4 +10,5 @@ int main()
     std::string str;
     std::cin >> str;
     std::cout << "Hello " << str <<" ! " << std::endl;
+    std::cout << std::endl;
 }
