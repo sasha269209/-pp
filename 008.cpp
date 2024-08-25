@@ -49,38 +49,4 @@ int main()
         cout << "a=b" << endl;
     }
     
-
-
-
-/*
-
-    c = a <  b;
-    cout << "c= " << c << endl;
-    c = a >  b;
-    cout << "c= " << c << endl;
-    c = a <=  b;
-    cout << "c= " << c << endl;
-    c = a >=  b;
-    cout << "c= " << c << endl;
-    c = a == b;
-    cout << "c= " << c << endl;
-    c = a !=  b;
-    cout << "c= " << c << endl;
-    cout << endl;
-
-    a = 10;
-    c = (a);
-    cout << "c= " << c << endl;
-    c = (!a);
-    cout << "c= " << c << endl;
-    cout << endl;
-
-    a = 0;
-    c = (a);
-    cout << "c= " << c << endl;
-    c = (!a);
-    cout << "c= " << c << endl;
-    cout << endl;
-
-    */   
 }
