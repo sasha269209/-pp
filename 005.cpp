@@ -9,7 +9,8 @@ int main()
     int a = 10, b = 20;
     
     std::cout <<"a = 10, b = 20" << std::endl;
-    /*   ?????
-    std::cout <<"a+=b  " << a+=b << std::endl;
-    */
+    
+    std::cout <<"a+=b  " << (a+=b) << std::endl;
+    std::cout <<"b-=4  " << (b-=4) << std::endl;
+    
 }

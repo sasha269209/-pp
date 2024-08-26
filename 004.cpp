@@ -23,4 +23,20 @@ int main()
     std::cout <<"a=  " << a << std::endl;
     std::cout <<"b--=  " << b-- << std::endl;
     std::cout <<"b=  " << b << std::endl;
+
+    for (int i = 0; i<3; i++)
+        std::cout << " i= " << i;
+    std::cout << std::endl;
+
+    for (int i = 0; i<3; ++i)
+        std::cout << " i= " << i;
+    std::cout << std::endl;
+
+    int k=88;
+    std::cout <<"k=  " << k++ << std::endl;
+    int f=88;
+    std::cout <<"f=  " << ++f << std::endl;
+
+
+
 }
