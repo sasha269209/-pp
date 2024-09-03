@@ -1,5 +1,5 @@
 //file 020.cpp   ( array +  ...)
-//lessons 10 {@pathtocpp cpp}
+//lessons 12 {@pathtocpp cpp}
 
 #include <iostream>
 using namespace std;
