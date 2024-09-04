@@ -1,6 +1,11 @@
 !#/bin/bash
 git status
-sleep 5
+sleep 3
+
 git add .
+sleep 3
+
 git commit -m "Add new files"
+sleep 3
+
 git status
