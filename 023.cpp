@@ -1,5 +1,5 @@
-//file 022.cpp   ( type char  ...)
-//lessons 14 {@pathtocpp cpp}
+//file 023.cpp   ( type char  ...)
+//lessons 16 {@pathtocpp cpp}
 
 #include <iostream>
 #include <cstring>
