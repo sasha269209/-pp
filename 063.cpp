@@ -46,17 +46,20 @@ void end_line ()
 
 int main()
 {
-
+cout << "bmb" << endl;
 Car bmw;
 bmw.run();
 bmw.start_engine (1);
 bmw.run();
 bmw.end_line();
 
-Car Mersedes;
+cout << "Mersedes" << endl;
+Car Mersedes(0);
+Mersedes.run();
 Mersedes.start_engine(1);
 Mersedes.run();
 Mersedes.end_line();
+
 
 
 }
