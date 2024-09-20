@@ -5,13 +5,7 @@
 using std::cout;
 using std::endl;
 
-int foo (int *a)
-{
-    return ++*a;
-    //return *a = 1000;
-    //return *a= *a+10;
-    //return *a+10; // Zbilshue rezultat (znachennya a ne zminue)
-}
+int foo (int *a);
 int change_value(int *a, int index);
 int show_array(int *a,int n);
 
@@ -20,10 +14,10 @@ int main()
 int a =10;
 int b = 55;
 int *ptr_a = &a;
-cout << "adresa: " << ptr_a << "\n";
-cout << "adresa: a " << &a << "\n";
-cout << "adresa: b " << &b << "\n";
-cout << "zminna: " << *ptr_a << "\n";
+cout << "adresa: ptr_a  " << ptr_a << "\n";
+cout << "adresa: &a     " << &a << "\n";
+cout << "adresa: &b     " << &b << "\n";
+cout << "zminna: *ptr_a " << *ptr_a << "\n";
 
 *ptr_a = 22;
 cout << "*ptr_a = 22 = " << a << "\n";
@@ -45,6 +39,15 @@ int *ptr_array=array;
 change_value(ptr_array,3);
 show_array(ptr_array, 5);
 
+}
+
+
+int foo (int *a)
+{
+    return ++*a;
+    //return *a = 1000;
+    //return *a= *a+10;
+    //return *a+10; // Zbilshue rezultat (znachennya a ne zminue)
 }
 
 int change_value(int *a, int index)
