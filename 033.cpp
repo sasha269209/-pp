@@ -1,4 +1,4 @@
-//file 033.cpp   ( Recursia ...)
+//file 033.cpp   ( Wkaziwnuky ...)
 //lessons 23 {@pathtocpp cpp}
 
 #include <iostream>
