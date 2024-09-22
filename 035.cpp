@@ -34,6 +34,12 @@ cout << "addres elemnt -3 = " << ptr_array << "\n";
 ptr_array = ptr_array + 14; // !!! Slidkuy za rozmirom masuwy !!!
 cout << "elemnt +14 = " << *ptr_array << "\n";
 cout << "addres elemnt +14 = " << ptr_array << "\n";
+cout << "\n";
 
+cout << "array - addres = " << array << "\n";
+cout << "elemnt 0 = " << *array << "\n";
 
+ptr_array = array;
+cout << "elemnt 0 = \t" << *ptr_array << "\n";
+cout << "addres elemnt 0 = \t" << ptr_array << "\n";
 }
