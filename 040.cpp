@@ -1,5 +1,5 @@
-//file 039.cpp   ( #define ...)
-//lessons 29 {@pathtocpp cpp}
+//file 040.cpp   ( Ternarnuy operator ...)
+//lessons 30 {@pathtocpp cpp}
 
 #include <iostream>
 #include <algorithm>
