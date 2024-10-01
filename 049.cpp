@@ -1,4 +1,4 @@
-// file 048.cpp   ( Incapsulacia, setery, getery...)
+// file 049.cpp   ( Incapsulacia, setery, getery...)
 // lessons 37 {@pathtocpp cpp}
 
 #include <iostream>
@@ -70,4 +70,5 @@ int main()
     Woman.get_info();
 
     Human ccc;
+    
 }
