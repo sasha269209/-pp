@@ -41,8 +41,13 @@ public:
 
 int main()
 {
-    car bmw;
+    car bmw; //Use default construktor
     bmw.lest_go();
     bmw.start_eng(true);
     bmw.lest_go();
+
+    cout << "\n";
+
+    car mersedes(true); // Use own construktor
+    mersedes.lest_go();
 }
