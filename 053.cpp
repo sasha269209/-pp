@@ -1,4 +1,4 @@
-// file 052.cpp   ( Konstruktor kopiyuwannya+++..)
+// file 053.cpp   ( Konstruktor kopiyuwannya+++..)
 // lessons 41 {@pathtocpp cpp}
 
 #include <iostream>
