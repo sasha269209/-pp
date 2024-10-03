@@ -38,5 +38,7 @@ int main()
         obj.~AAA(); //
         cout << "v = " << obj.vektor << "\n";
     }
+    int b = 7;
+    cout << "b= " << b << "\n";
 
 }
