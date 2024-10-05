@@ -1,5 +1,5 @@
-// file 054.cpp   ( Konstruktor  - perewantajennya+++..)
-// lessons 42 {@pathtocpp cpp}
+// file 055.cpp   ( this        ..)
+// lessons 43 {@pathtocpp cpp}
 
 #include <iostream>
 #include <string>
