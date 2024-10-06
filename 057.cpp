@@ -8,6 +8,12 @@ using std::cout;
 using std::string;
 #define PI 3.1415 // Stworennya constanty - durectywa - #define
 
+double foo_mm (double pi)
+{
+    return pi*2;
+}
+
+
 int foo(const int d) // In function -create copi of data (with we take)
 {
     return d + 8;
