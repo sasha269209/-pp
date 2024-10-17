@@ -73,3 +73,9 @@ bool pointers::operator> (const pointers& other)const  //another princip
 {
     return(this->x +  this->y > other.x + other.y);
 }
+
+std::ostream &operator<<(std::ostream &os,const pointers &obj)
+{
+    os << "x= " << obj.x << "\n" << "y= " << obj.y << "\n";
+    return os;
+}

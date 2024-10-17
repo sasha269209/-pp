@@ -8,12 +8,10 @@ using std::cin;
 using std::cout;
 using std::string;
 
-
-
 int main()
 {
     pointers p_1(3, 3);
-    pointers p_2(8,8);
+    pointers p_2(8, 8);
     pointers p_3 = p_1 + p_2;
     p_3.show();
     pointers p_4 = p_2 - p_1;
@@ -32,4 +30,9 @@ int main()
     {
         cout << " p_1 !> p_2 " << "\n";
     };
+    cout << "\n";
+    cout << p_2 << p_1 << "\n";
+
+    cout << p_2 * p_1 << "\n";
+
 }

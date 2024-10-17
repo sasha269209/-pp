@@ -24,10 +24,11 @@ public:
     pointers operator-(pointers other);
     pointers operator*(pointers other);
     pointers operator/(const pointers &other);
-    pointers operator% (const pointers& other);
-    bool operator== (const pointers& other) const;
-    bool operator< (const pointers& other) const;
-    bool operator> (const pointers& other) const;
+    pointers operator%(const pointers &other);
+    bool operator==(const pointers &other) const;
+    bool operator<(const pointers &other) const;
+    bool operator>(const pointers &other) const;
+    friend std::ostream &operator<<(std::ostream &os, const pointers &obj);
 };
 
 #endif
