@@ -1,4 +1,4 @@
-// file 059.cpp   (         ..)
+// file 059_main.cpp   (         ..)
 // lessons 47 {@pathtocpp cpp}
 
 #include <iostream>

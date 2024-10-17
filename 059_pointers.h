@@ -1,3 +1,6 @@
+// file 059_pointers.h   (         ..)
+// lessons 47 {@pathtocpp cpp}
+
 #ifndef SASHA_059
 #define SASHA_059
 

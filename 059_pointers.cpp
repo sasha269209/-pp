@@ -1,3 +1,6 @@
+// file 059_pionters.cpp   (         ..)
+// lessons 47 {@pathtocpp cpp}
+
 #include "059_pointers.h"
 
 pointers::pointers()
