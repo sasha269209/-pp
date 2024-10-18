@@ -34,7 +34,7 @@ pointers pointers::operator-(pointers other)
 pointers pointers::operator*(pointers other)
 {
     pointers temp;
-    temp.x = this->x + other.x;
+    temp.x = this->x * other.x;
     temp.y = this->y * other.y;
     return temp;
 }
