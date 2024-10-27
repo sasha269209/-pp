@@ -1,4 +1,4 @@
-// file 080cpp   (  Naslidyvannya...)
+// file 061.cpp   (  Naslidyvannya...)
 // lessons 50 {@pathtocpp cpp}
 
 #include <iostream>

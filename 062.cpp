@@ -1,4 +1,4 @@
-// file 081cpp   (  Naslidyvannya...)
+// file 062.cpp   (  Naslidyvannya...)
 // lessons 51 {@pathtocpp cpp}
 
 #include <iostream>
@@ -29,13 +29,13 @@ class Child : protected Parent
 public:
     void show_masege()
     {
-        cout << "massege_2  - " << massege_1 << "\n";
+        cout << "massege_2  - " << massege_2 << "\n";
     }
 };
 
 int main()
 {
     Child obj;
-    //cout << "obj.massege_1  - " << obj.massege_1 << "\n";
+    // cout << "obj.massege_1  - " << obj.massege_1 << "\n";
     obj.show_masege();
 }
