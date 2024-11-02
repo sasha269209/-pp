@@ -13,10 +13,12 @@ int main()
 {
     const string FILE_NAME = "070.txt";
 
-    std::fstream file;    // Make object (for work with file)
+    // std::fstream file;    // Make object (for work with file)
     // file.open(FILE_NAME); // Open new file
     // file.open(FILE_NAME, std::ios::out); // Make file + Open new file (for rewrite)
-    file.open(FILE_NAME, std::ios::out | std::ios::app); // Make file + Open new file + Add new text
+    // file.open(FILE_NAME, std::ios::out | std::ios::app); // Make file + Open new file + Add new text
+    std::fstream file(FILE_NAME, std::ios::out | std::ios::app); // Metod open - use automatic
+    
 
     if (file.is_open()) //Check "file.is_open()" == True - if file open (enothe - False)
     {
