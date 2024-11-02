@@ -36,7 +36,7 @@ int main()
 // Write file finish
 
 // read file - Start
-    std::ifstream in_file(FILE_NAME, std::ios::out | std::ios::app); // Metod open - use automatic
+    std::ifstream in_file(FILE_NAME); // Metod open - use automatic
 
     if (in_file.is_open()) //Check "file.is_open()" == True - if file open (enothe - False)
     {
@@ -58,7 +58,7 @@ int main()
 // read file - by char - Start
     char str_ar [500];
     int count = 0;
-    std::ifstream in_file_ch(FILE_NAME, std::ios::out | std::ios::app); // Metod open - use automatic
+    std::ifstream in_file_ch(FILE_NAME); // Metod open - use automatic
 
     if (in_file_ch.is_open()) //Check "file.is_open()" == True - if file open (enothe - False)
     {
