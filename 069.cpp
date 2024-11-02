@@ -38,6 +38,7 @@ public:
 int main()
 {
     // Child c;
+    
     Parent *ptr = new Child();
 
     delete ptr;
