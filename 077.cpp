@@ -1,5 +1,5 @@
 // file 077.cpp   (  Vidnosyny mij klasamy (zZALEJNIST ASOCIACIA AGREGACIA KOMPOZYCIA)..)
-// lessons 62 {@pathtocpp cpp}
+// lessons 64 {@pathtocpp cpp}
 
 #include <iostream>
 #include <string>
