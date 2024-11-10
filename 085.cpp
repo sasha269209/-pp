@@ -1,5 +1,5 @@
-// file 084.cpp   (  Obrobka pomylok..)
-// lessons 67 {@pathtocpp cpp}
+// file 085.cpp   (  Obrobka pomylok..)
+// lessons 68 {@pathtocpp cpp}
 
 #include <iostream>
 #include <string>
