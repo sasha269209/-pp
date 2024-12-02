@@ -1,5 +1,5 @@
-// file 093.cpp   (  - clean memory..)
-// lessons 74 {@pathtocpp cpp}
+// file 093.cpp   (  <memory> - clean memory..)
+// lessons 75 {@pathtocpp cpp}
 
 // uto_ptr
 // unique_ptr
